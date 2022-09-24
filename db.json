@@ -1,0 +1,28 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "firstName": "Abcd",
+      "LastName": "Efg",
+      "email": "abcd12@xmail.com"
+    },
+    {
+      "id": 2,
+      "firstName": "Xyz",
+      "LastName": "Abc",
+      "email": "xyz123@ymail.com"
+    },
+    {
+      "id": 3,
+      "firstName": "Lmn",
+      "LastName": "Opqr",
+      "email": "lmn55@amail.com"
+    },
+    {
+      "id": 4,
+      "firstName": "hij",
+      "LastName": "klm",
+      "email": "hij@mail.com"
+    }
+  ]
+}

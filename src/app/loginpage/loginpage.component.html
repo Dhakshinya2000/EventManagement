@@ -1,0 +1,17 @@
+<header>
+    <nav class="navbar navbar-dark bg-danger">
+        <div class="container-fluid">
+            <h1><a class="navbar-brand" href="#">Admin Dashboard</a></h1>
+        </div>
+    </nav>
+</header><br>
+<h2 style="text-align: center">Admin Login</h2><br>
+    <div class="form-group mb-3 container-fluid" style="text-align: center">
+      <label for="exampleInputEmail1" class="form-label">Email address:</label>
+      <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter Email" [(ngModel)]="ademail" style="text-align: center; width: 30%; margin-left: 550px;">
+    </div>
+    <div class="form-group mb-3 container-fluid" style="text-align: center">
+      <label for="exampleInputPassword1" class="form-label">Password</label>
+      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Enter Password" [(ngModel)]="adpass" style="text-align: center; width: 30%; margin-left: 550px;">
+    </div>
+    <button type="submit" (click)="login()" class="btn btn-primary" style="text-align: center; margin-left: 750px;">Login</button>
